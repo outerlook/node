@@ -13,7 +13,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-    # persis data
+    # persist data
     volumes:
       - ${POSTGRES_VOLUME:-data-kwil-postgres}:/var/lib/postgresql/data
     networks:
